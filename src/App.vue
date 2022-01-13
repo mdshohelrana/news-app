@@ -41,6 +41,8 @@
 import debounce from "lodash.debounce";
 
 export default {
+  name: "App",
+  
   data() {
     return {
       searchText: "",

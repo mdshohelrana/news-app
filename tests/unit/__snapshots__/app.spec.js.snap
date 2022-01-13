@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue should have a title and match snapshot 1`] = `
+<div id="app">
+  <v-app-stub id="news">
+    <v-app-bar-stub color="indigo" tag="header" extensionheight="48" flat="true" src="" value="true" app="true">
+      <v-container-stub tag="div" class="py-0 fill-height">
+        <router-link-stub to="/" class="router-link">
+          <v-avatar-stub color="white" size="45">N</v-avatar-stub>
+        </router-link-stub>
+        <v-btn-stub tag="button" activeclass="" to="/" plain="true" text="true" type="button" class="text-capitalize headline white--text" style="text-decoration: none;">
+          News
+        </v-btn-stub>
+        <v-spacer-stub tag="div"></v-spacer-stub>
+        <v-responsive-stub maxwidth="260">
+          <v-text-field-stub errorcount="1" errormessages="" messages="" rules="" successmessages="" value="" backgroundcolor="" dense="true" hidedetails="true" loaderheight="2" clearicon="$clear" flat="true" rounded="true" soloinverted="true" type="text" class="white"></v-text-field-stub>
+        </v-responsive-stub>
+      </v-container-stub>
+    </v-app-bar-stub>
+    <router-view-stub></router-view-stub>
+  </v-app-stub>
+</div>
+`;
