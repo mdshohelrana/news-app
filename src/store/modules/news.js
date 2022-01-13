@@ -1,4 +1,5 @@
 import * as R from "ramda"
+import Vue from 'vue'
 import newsService from "../../services/NewsService"
 
 const state = {
@@ -72,7 +73,7 @@ const mutations = {
     },
     setVisisted(state, payload) {
         state.topHeadlines.articles.forEach(el => {
-            if (payload === el.title) {
+            if (Number(payload) === Number(el.id)) {
                 el.visited = true
             }
         })
@@ -86,6 +87,14 @@ const mutations = {
     },
     setError(state, error) {
         state.error = error
+        if (error) {
+            Vue.swal({
+                title: 'Oops...',
+                text: 'Something went wrong!',
+                icon: "error",
+                showConfirmButton: true,
+            });
+        }
     },
 }
 

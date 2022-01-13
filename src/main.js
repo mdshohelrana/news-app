@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import AOS from 'aos'
+
 import vuetify from '@/plugins/vuetify'
+import "@/utilities/vue-sweetalert2"
 import "@/utilities/filters/fromNowAgo"
 
 import App from './App.vue'

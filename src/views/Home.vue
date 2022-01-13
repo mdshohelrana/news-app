@@ -82,7 +82,8 @@ export default {
   },
 
   computed: {
-    ...mapState("news", ["topHeadlines", "error", "loading", "newsSources"]),
+    ...mapState("news", ["topHeadlines", "loading", "newsSources"]),
+    
     filterableArticles() {
       var filteredList = [];
 

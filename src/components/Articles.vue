@@ -94,6 +94,17 @@ export default {
         id: this.oldTitle,
         data: this.newsTitle,
       });
+
+      this.$swal({
+        position: "top-end",
+        title: "Successfylly Updated!",
+        toast: true,
+        icon: "success",
+        showConfirmButton: false,
+        timer: 3000,
+        timerProgressBar: true,
+      });
+
       this.closeEditNews();
     },
 

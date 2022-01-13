@@ -28,7 +28,7 @@
         <v-divider></v-divider>
         <v-list-item>
           <v-btn class="text-capitalize" plain @click="editNews(article.title)">
-            Edit Detail
+            Edit Headline
           </v-btn>
         </v-list-item>
       </v-list>
