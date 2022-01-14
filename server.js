@@ -8,6 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(express.static(path.join(__dirname, 'build')));
+app.set('port', PORT);
 
 var corsOptions = {
     origin: "http://localhost:8081"
@@ -61,10 +62,6 @@ app.get('/api/getSearchedTopHeadlines', (req, res) => {
     const { search } = req.query;
     fetchSearchedTopHeadlines(search).then(data => res.send(data));
 });
-
-// app.listen(PORT, () => {
-//     console.log(`Server is running on port ${PORT}.`);
-// });
 
 app.listen(app.get('port'), () => {
     console.log('Mean Stack listening on port ' + app.get('port'));
