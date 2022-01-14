@@ -62,10 +62,10 @@ app.get('/api/getSearchedTopHeadlines', (req, res) => {
     fetchSearchedTopHeadlines(search).then(data => res.send(data));
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}.`);
-});
-
-// app.listen(app.get('port'), () => {
-//     console.log('Mean Stack listening on port ' + app.get('port'));
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}.`);
 // });
+
+app.listen(app.get('port'), () => {
+    console.log('Mean Stack listening on port ' + app.get('port'));
+});
