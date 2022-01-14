@@ -6,7 +6,7 @@ This project uses the following technology and tools:
 * [VueJs](https://vuejs.org/): frontend framework
 * [Express.js](http://expressjs.com): backend framework
 * [Node.js](https://nodejs.org): runtime environment
-* [Newsapi](https://newsapi.org/): News API
+* [Newsapi](https://newsapi.org/): news API
 
 Other tools and technologies used:
 * [Vue CLI](https://cli.vuejs.org/): project scaffolding
@@ -14,7 +14,7 @@ Other tools and technologies used:
 * [Material Icon](https://materialdesignicons.com/): icons
 * [Vue Router](https://router.vuejs.org/): frontend side page navigation
 * [Vuex](https://vuex.vuejs.org/): state management
-* [Style guide](https://github.com/airbnb/javascript): Airbnb javascript style guide
+* [Style guide](https://github.com/airbnb/javascript): airbnb javascript style guide
 
 ## Prerequisites
 1. Install [Node.js](https://nodejs.org)
@@ -28,8 +28,11 @@ Other tools and technologies used:
 4. `npm run lint` or `yarn lint`: To allow developers to create their own linting rules
 5. `npm run test:unit` or `yarn test:unit`: For the unit test of the system
 
+## Demo
+[Clik Here](https://manatal-news.netlify.app/)
+
 ## Preview
-![Preview](http://manatal-news.netlify.app/ "Preview")
+![Preview](https://raw.githubusercontent.com/mdshohelrana/news-app/main/demo.png "Preview")
 
 ## Author
 * [Shohel Rana](https://github.com/mdshohelrana)
