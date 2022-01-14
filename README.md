@@ -29,7 +29,7 @@ Other tools and technologies used:
 5. `npm run test:unit` or `yarn test:unit`: For the unit test of the system
 
 ## Demo
-[Clik Here](https://manatal-news.netlify.app/)
+[Click Here](https://manatal-news.netlify.app/)
 
 ## Preview
 ![Preview](https://raw.githubusercontent.com/mdshohelrana/news-app/main/demo.png "Preview")
