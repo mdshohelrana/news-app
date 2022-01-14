@@ -17,9 +17,10 @@ Other tools and technologies used:
 * [Style guide](https://github.com/airbnb/javascript): airbnb javascript style guide
 
 ## Prerequisites
-1. Install [Node.js](https://nodejs.org)
-2. Install Vue CLI: `npm install -g @vue/cli` OR `yarn global add @vue/cli`
-3. From project root folder install all the dependencies: `npm i` OR `yarn install`
+1. Clone the project from github by `git clone https://github.com/mdshohelrana/news-app.git`
+2. Install [Node.js](https://nodejs.org)
+3. Install Vue CLI: `npm install -g @vue/cli` OR `yarn global add @vue/cli`
+4. From project root folder install all the dependencies: `npm i` OR `yarn install`
 
 ## RUN
 1. `npm run server` or `yarn serve`: Browse the application and enjoy it
